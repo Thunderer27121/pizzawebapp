@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita",
+    "category": "veg",
+    "price": 318,
+    "image": "https://www.nicepng.com/png/detail/384-3843443_photo-cheese-pizza-vertical-double-cheese-margherita-pizza.png",
+    "description": "Certainly along oil source particularly hour billion various cultural."
+  },
+  {
+    "id": 2,
+    "name": "Farmhouse",
+    "category": "veg",
+    "price": 241,
+    "image": "https://jambubakers.com/wp-content/uploads/2023/07/pizza.png",
+    "description": "Boy himself attorney operation system expect."
+  },
+  {
+    "id": 3,
+    "name": "Onion Capsicum",
+    "category": "veg",
+    "price": 224,
+    "image": "https://www.seekpng.com/png/detail/251-2518542_farm-villa-medium-red-and-yellow-capsicum-pizza.png",
+    "description": "Chance space those let mention anyone couple effort case wall."
+  },
+  {
+    "id": 4,
+    "name": "Mushroom Delight",
+    "category": "veg",
+    "price": 320,
+    "image": "https://png.pngtree.com/png-clipart/20250116/original/pngtree-delicious-veggie-pizza-with-olives-mushrooms-and-peppers-png-image_19908887.png",
+    "description": "Agree occur officer recently write attorney already sit."
+  },
+  {
+    "id": 5,
+    "name": "Paneer Veggie",
+    "category": "veg",
+    "price": 273,
+    "image": "https://www.pikpng.com/pngl/b/522-5220691_special-paneer-veggie-pizza-pizza-veggie-pizza-clipart.png",
+    "description": "Method enjoy wonder learn single care research."
+  },
+  {
+    "id": 6,
+    "name": "Fresh Garden",
+    "category": "veg",
+    "price": 315,
+    "image": "https://png.pngtree.com/png-vector/20231111/ourmid/pngtree-garden-goodness-a-slice-of-wholesome-vegetarian-pizza-png-image_10560539.png",
+    "description": "Machine wrong describe debate huge trip power."
+  },
+  {
+    "id": 7,
+    "name": "Sweet Corn",
+    "category": "veg",
+    "price": 296,
+    "image": "https://png.pngtree.com/png-vector/20240124/ourmid/pngtree-pizza-with-corn-bacon-chili-onion-pea-png-image_11483576.png",
+    "description": "Without media account data quickly present from."
+  },
+  {
+    "id": 8,
+    "name": "Tomato Basil",
+    "category": "veg",
+    "price": 303,
+    "image": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-pizza-delicious-tomatoes-png-image_9057058.png",
+    "description": "Could there teacher whether assume."
+  },
+  {
+    "id": 9,
+    "name": "Green Delight",
+    "category": "veg",
+    "price": 316,
+    "image": "https://png.pngtree.com/png-vector/20240810/ourmid/pngtree-classic-margherita-pizza-delight-authentic-italian-recipe-perfection-isolated-png-image_13440803.png",
+    "description": "Rather school ahead audience response safe."
+  },
+  {
+    "id": 10,
+    "name": "Veg Loaded",
+    "category": "veg",
+    "price": 214,
+    "image": "https://png.pngtree.com/png-clipart/20250119/original/pngtree-veggie-loaded-pizza-png-image_19948705.png",
+    "description": "All point friend federal according rule suggest or could."
+  },
+  {
+    "id": 11,
+    "name": "Pepperoni",
+    "category": "nonveg",
+    "price": 367,
+    "image": "/images/pepperoni.jpg",
+    "description": "Talk training add fall not ten manage three doctor carry."
+  },
+  {
+    "id": 12,
+    "name": "Chicken Tikka",
+    "category": "nonveg",
+    "price": 291,
+    "image": "/images/chicken-tikka.jpg",
+    "description": "Trade student since heart special century these actually free career."
+  },
+  {
+    "id": 13,
+    "name": "BBQ Chicken",
+    "category": "nonveg",
+    "price": 327,
+    "image": "/images/bbq-chicken.jpg",
+    "description": "Lay great particularly beyond business easy subject."
+  },
+  {
+    "id": 14,
+    "name": "Chicken Supreme",
+    "category": "nonveg",
+    "price": 371,
+    "image": "/images/chicken-supreme.jpg",
+    "description": "About most improve professional couple think perform."
+  },
+  {
+    "id": 15,
+    "name": "Spicy Chicken",
+    "category": "nonveg",
+    "price": 355,
+    "image": "/images/spicy-chicken.jpg",
+    "description": "Week executive toward nature every possible yes class."
+  },
+  {
+    "id": 16,
+    "name": "Chicken Sausage",
+    "category": "nonveg",
+    "price": 337,
+    "image": "/images/chicken-sausage.jpg",
+    "description": "Food no commercial smile clearly health."
+  },
+  {
+    "id": 17,
+    "name": "Meat Lovers",
+    "category": "nonveg",
+    "price": 335,
+    "image": "/images/meat-lovers.jpg",
+    "description": "Popular teacher can film short young who water."
+  },
+  {
+    "id": 18,
+    "name": "Keema Feast",
+    "category": "nonveg",
+    "price": 370,
+    "image": "/images/keema-feast.jpg",
+    "description": "New billion themselves hotel building speech turn capital."
+  },
+  {
+    "id": 19,
+    "name": "Chicken Delight",
+    "category": "nonveg",
+    "price": 372,
+    "image": "/images/chicken-delight.jpg",
+    "description": "Behavior course music the century."
+  },
+  {
+    "id": 20,
+    "name": "Peri Chicken",
+    "category": "nonveg",
+    "price": 345,
+    "image": "/images/peri-chicken.jpg",
+    "description": "Any impact customer understand recent film factor pattern."
+  },
+  {
+    "id": 21,
+    "name": "Peri Paneer",
+    "category": "spicy",
+    "price": 294,
+    "image": "/images/peri-paneer.jpg",
+    "description": "For born ok past whether."
+  },
+  {
+    "id": 22,
+    "name": "Mexican Wave",
+    "category": "spicy",
+    "price": 240,
+    "image": "/images/mexican-wave.jpg",
+    "description": "Best camera book thus bed loss I Mrs affect."
+  },
+  {
+    "id": 23,
+    "name": "Jalapeno Blast",
+    "category": "spicy",
+    "price": 263,
+    "image": "/images/jalapeno-blast.jpg",
+    "description": "Daughter take grow financial time off chance."
+  },
+  {
+    "id": 24,
+    "name": "Spicy Veggie",
+    "category": "spicy",
+    "price": 325,
+    "image": "/images/spicy-veggie.jpg",
+    "description": "Once high teach food event seem call tell truth rest."
+  },
+  {
+    "id": 25,
+    "name": "Hot & Tangy",
+    "category": "spicy",
+    "price": 309,
+    "image": "/images/hot-&-tangy.jpg",
+    "description": "Central suddenly wide argue."
+  },
+  {
+    "id": 26,
+    "name": "Firecracker",
+    "category": "spicy",
+    "price": 309,
+    "image": "/images/firecracker.jpg",
+    "description": "Seek play wait industry usually to hard contain simple."
+  },
+  {
+    "id": 27,
+    "name": "Schezwan Cheese",
+    "category": "spicy",
+    "price": 302,
+    "image": "/images/schezwan-cheese.jpg",
+    "description": "Door material address seek money Congress north often deep."
+  },
+  {
+    "id": 28,
+    "name": "Red Chilli Delight",
+    "category": "spicy",
+    "price": 289,
+    "image": "/images/red-chilli-delight.jpg",
+    "description": "Remain leave magazine popular change agreement."
+  },
+  {
+    "id": 29,
+    "name": "Tandoori Heat",
+    "category": "spicy",
+    "price": 336,
+    "image": "/images/tandoori-heat.jpg",
+    "description": "Rest usually professional son watch important month game who."
+  },
+  {
+    "id": 30,
+    "name": "Green Chilli Fusion",
+    "category": "spicy",
+    "price": 318,
+    "image": "/images/green-chilli-fusion.jpg",
+    "description": "Well plan wear plan situation computer scientist computer peace view."
+  },
+  {
+    "id": 31,
+    "name": "Cheese Burst Margherita",
+    "category": "cheeseburst",
+    "price": 310,
+    "image": "/images/cheese-burst-margherita.jpg",
+    "description": "Between compare matter space of century along age."
+  },
+  {
+    "id": 32,
+    "name": "Triple Cheese",
+    "category": "cheeseburst",
+    "price": 314,
+    "image": "/images/triple-cheese.jpg",
+    "description": "Figure way grow run physical seem during."
+  },
+  {
+    "id": 33,
+    "name": "Stuffed Crust Delight",
+    "category": "cheeseburst",
+    "price": 337,
+    "image": "/images/stuffed-crust-delight.jpg",
+    "description": "Explain environmental night its join rule perhaps check up."
+  },
+  {
+    "id": 34,
+    "name": "Creamy Cheese Veg",
+    "category": "cheeseburst",
+    "price": 304,
+    "image": "/images/creamy-cheese-veg.jpg",
+    "description": "Live admit design camera soldier."
+  },
+  {
+    "id": 35,
+    "name": "Extreme Cheese",
+    "category": "cheeseburst",
+    "price": 352,
+    "image": "/images/extreme-cheese.jpg",
+    "description": "Until total man become simply career exactly my senior source."
+  },
+  {
+    "id": 36,
+    "name": "Cheese Volcano",
+    "category": "cheeseburst",
+    "price": 420,
+    "image": "/images/cheese-volcano.jpg",
+    "description": "Suddenly over hard walk let hour."
+  },
+  {
+    "id": 37,
+    "name": "Cheese Maxx",
+    "category": "cheeseburst",
+    "price": 382,
+    "image": "/images/cheese-maxx.jpg",
+    "description": "Turn whose author within whole decision resource realize trip become."
+  },
+  {
+    "id": 38,
+    "name": "Four Cheese",
+    "category": "cheeseburst",
+    "price": 315,
+    "image": "/images/four-cheese.jpg",
+    "description": "Sound person watch fish road."
+  },
+  {
+    "id": 39,
+    "name": "Melting Cheese",
+    "category": "cheeseburst",
+    "price": 360,
+    "image": "/images/melting-cheese.jpg",
+    "description": "Now key property always edge church feel."
+  },
+  {
+    "id": 40,
+    "name": "Cheese Wave",
+    "category": "cheeseburst",
+    "price": 414,
+    "image": "/images/cheese-wave.jpg",
+    "description": "Race baby suddenly include relate else drive next."
+  },
+  {
+    "id": 41,
+    "name": "Family Veg Combo",
+    "category": "family",
+    "price": 732,
+    "image": "/images/family-veg-combo.jpg",
+    "description": "Material management simply however commercial kitchen five ready though."
+  },
+  {
+    "id": 42,
+    "name": "Family Nonveg Combo",
+    "category": "family",
+    "price": 802,
+    "image": "/images/family-nonveg-combo.jpg",
+    "description": "Prove threat option beyond might great yeah amount guy."
+  },
+  {
+    "id": 43,
+    "name": "Deluxe Family Meal",
+    "category": "family",
+    "price": 608,
+    "image": "/images/deluxe-family-meal.jpg",
+    "description": "Travel expect doctor past great challenge kid drop site information."
+  },
+  {
+    "id": 44,
+    "name": "Weekend Feast",
+    "category": "family",
+    "price": 815,
+    "image": "/images/weekend-feast.jpg",
+    "description": "Identify book significant assume value course."
+  },
+  {
+    "id": 45,
+    "name": "Super Combo Deal",
+    "category": "family",
+    "price": 532,
+    "image": "/images/super-combo-deal.jpg",
+    "description": "Take improve push professor important democratic about audience set option."
+  },
+  {
+    "id": 46,
+    "name": "Veg Party Box",
+    "category": "family",
+    "price": 560,
+    "image": "/images/veg-party-box.jpg",
+    "description": "President opportunity former however total foot business student."
+  },
+  {
+    "id": 47,
+    "name": "Nonveg Party Box",
+    "category": "family",
+    "price": 565,
+    "image": "/images/nonveg-party-box.jpg",
+    "description": "Capital thought single shake black several a."
+  },
+  {
+    "id": 48,
+    "name": "Ultimate Family Feast",
+    "category": "family",
+    "price": 522,
+    "image": "/images/ultimate-family-feast.jpg",
+    "description": "Part professor key during teacher sister enter way."
+  },
+  {
+    "id": 49,
+    "name": "Double Deal Veg",
+    "category": "family",
+    "price": 692,
+    "image": "/images/double-deal-veg.jpg",
+    "description": "Mention soon true right west along art western require plan."
+  },
+  {
+    "id": 50,
+    "name": "Big Bite Box",
+    "category": "family",
+    "price": 759,
+    "image": "/images/big-bite-box.jpg",
+    "description": "Happen recognize conference store professional view."
+  },
+  {
+    "id": 51,
+    "name": "Coca Cola",
+    "category": "beverages",
+    "price": 34,
+    "image": "/images/coca-cola.jpg",
+    "description": "Be decide crime play either gas when meeting choose property."
+  },
+  {
+    "id": 52,
+    "name": "Pepsi",
+    "category": "beverages",
+    "price": 70,
+    "image": "/images/pepsi.jpg",
+    "description": "Various customer what until offer."
+  },
+  {
+    "id": 53,
+    "name": "Sprite",
+    "category": "beverages",
+    "price": 54,
+    "image": "/images/sprite.jpg",
+    "description": "Newspaper explain their southern environment rich."
+  },
+  {
+    "id": 54,
+    "name": "Lemonade",
+    "category": "beverages",
+    "price": 55,
+    "image": "/images/lemonade.jpg",
+    "description": "Behind account rest trade network other health."
+  },
+  {
+    "id": 55,
+    "name": "Cold Coffee",
+    "category": "beverages",
+    "price": 82,
+    "image": "/images/cold-coffee.jpg",
+    "description": "Value office hospital beyond level husband bill series condition."
+  },
+  {
+    "id": 56,
+    "name": "Iced Tea",
+    "category": "beverages",
+    "price": 49,
+    "image": "/images/iced-tea.jpg",
+    "description": "Into house never himself behind realize education through meeting arrive."
+  },
+  {
+    "id": 57,
+    "name": "Mango Shake",
+    "category": "beverages",
+    "price": 86,
+    "image": "/images/mango-shake.jpg",
+    "description": "Carry five pressure majority fill rest control sure."
+  },
+  {
+    "id": 58,
+    "name": "Chocolate Shake",
+    "category": "beverages",
+    "price": 64,
+    "image": "/images/chocolate-shake.jpg",
+    "description": "Last involve life professor mother who reveal face."
+  },
+  {
+    "id": 59,
+    "name": "Water Bottle",
+    "category": "beverages",
+    "price": 46,
+    "image": "/images/water-bottle.jpg",
+    "description": "Area training first kitchen medical edge or generation."
+  },
+  {
+    "id": 60,
+    "name": "Orange Juice",
+    "category": "beverages",
+    "price": 100,
+    "image": "/images/orange-juice.jpg",
+    "description": "Baby sing might him not."
+  }
+]

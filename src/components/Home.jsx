@@ -40,18 +40,18 @@ const Home = () => {
             <div className="text-4xl text-red-500 inline" >Welcome </div>
           <span className="text-3xl text-red-500">to</span>
           <div className="text-5xl text-yellow-500 inline"> Hot 'N' Slice</div>
-          <hr className="mb-15"/>
+          <hr className="mb-3"/>
           </motion.div>
         <motion.div initial={{opacity:0,scale:0}} whileInView={{opacity:1,scale:1}} transition={{duration:1, delay:1}}>
-          <p align="center" className="py-3 font-sans text-3xl px-8">
+          <p align="center" className="py-3 font-sans text-3xl px-6">
             "Freshly baked perfection, straight from our oven to your plate.
 Hot 'N' Slice – where every bite is a slice of heaven." </p>
-         <div className="relative w-[40%] h-[35%] max-w-xl mx-auto p-4">
+         <div className="relative w-[40%] h-[35%] max-w-xl mx-auto p-2">
       <div className="relative overflow-hidden rounded-2xl shadow-lg">
         <img
           src={pizzas[currentIndex].img}
           alt={pizzas[currentIndex].name}
-          className="w-full h-full object-cover"
+          className="w-full h-80 object-contain"
         />
         <div className="absolute bottom-0 w-full bg-black bg-opacity-50 text-white p-2 text-center text-lg font-bold">
           {pizzas[currentIndex].name}
@@ -59,13 +59,13 @@ Hot 'N' Slice – where every bite is a slice of heaven." </p>
       </div>
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
+        className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
       >
         ◀
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
+        className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
       >
         ▶
       </button>
