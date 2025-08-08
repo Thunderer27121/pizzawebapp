@@ -32,11 +32,11 @@ const Home = () => {
         <motion.img
           src={image}
           alt="pizza"
-          className="w-1/2 h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
-          initial={{ x: -600, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          className="w-full h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
+          initial={{scale : 0, opacity: 0 }}
+          whileInView={{scale:1, opacity: 1 }}
           transition={{
-            duration: 1.5,
+            duration: 2,
             delay: 0.5,
             type: "spring",
             stiffness: 100,
