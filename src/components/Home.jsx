@@ -3,7 +3,6 @@ import mar from "../images/margretta.png";
 import veg from "../images/veggie.png";
 import pep from "../images/pepproni.png";
 import bbq from "../images/bbq.png";
-// import coke from "../images/coke.png";
 
 import { motion } from "motion/react";
 import { useState } from "react";
@@ -13,7 +12,6 @@ const pizzas = [
   { id: 2, name: "Pepperoni", img: pep },
   { id: 3, name: "Veggie", img: veg },
   { id: 4, name: "BBQ Chicken", img: bbq },
-  // { id: 5, name: "Coca Cola", img: coke },
 ];
 
 const Home = () => {
@@ -34,7 +32,7 @@ const Home = () => {
         <motion.img
           src={image}
           alt="pizza"
-          className="w-full h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
+          className="w-1/2 h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
           initial={{ x: -600, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{
