@@ -9,11 +9,11 @@ const Cart = () => {
     const cartItems = useSelector((state) => state.cart.cartItems);
 
     return (
-        <div className="max-w-4xl mx-auto p-6">
+        <div className="max-w-4xl mx-auto p-6 flex-col justify-center items-center">
             <h2 className="text-3xl font-bold mb-6 text-center">🛒 Your Cart</h2>
 
             {cartItems.length === 0 ? (
-                <p className="text-center text-gray-500 flex-col flex w-1/2 ml-55">Your cart is empty
+                <p className="text-center text-gray-500 flex-col flex w-1/2 ml-55 ">Your cart is empty
                     <button className="border-amber-50 outline-2 rounded-xl p-2 mt-10" onClick={() => { navigate(-1) }}>GO BACK</button>
                     <img src="https://www.pngplay.com/wp-content/uploads/7/Cart-Transparent-PNG.png" alt="" className='rounded-2xl mt-12 hover:bg-white transition' />
                 </p>
