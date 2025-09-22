@@ -1,7 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import "remixicon/fonts/remixicon.css";
-import img from "../images/logo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -39,7 +38,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-4 py-3">
   
         <div className="flex items-center gap-3">
-          <img src={img} alt="logo" className="h-14 w-20" />
+          <img src={"/images/logo.png"} alt="logo" className="h-14 w-20" />
         </div>
 
         <div className="hidden md:flex space-x-6">

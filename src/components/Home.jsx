@@ -1,17 +1,11 @@
-import image from "../images/pizza.png";
-import mar from "../images/margretta.png";
-import veg from "../images/veggie.png";
-import pep from "../images/pepproni.png";
-import bbq from "../images/bbq.png";
-
 import { motion } from "motion/react";
 import { useState } from "react";
 
 const pizzas = [
-  { id: 1, name: "Margherita", img: mar },
-  { id: 2, name: "Pepperoni", img: pep },
-  { id: 3, name: "Veggie", img: veg },
-  { id: 4, name: "BBQ Chicken", img: bbq },
+  { id: 1, name: "Margherita", img: "/images/margretta.png" },
+  { id: 2, name: "Pepperoni", img: "/images/pepproni.png" },
+  { id: 3, name: "Veggie", img: "/images/veggie.png" },
+  { id: 4, name: "BBQ Chicken", img: "/images/bbq.png" },
 ];
 
 const Home = () => {
@@ -30,7 +24,7 @@ const Home = () => {
       
       <div className="w-full lg:w-1/2 mb-10 lg:mb-0 px-4 flex items-center justify-center">
         <motion.img
-          src={image}
+          src={"/images/pizza.png"}
           alt="pizza"
           className="w-full h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
           initial={{scale : 0, opacity: 0 }}
