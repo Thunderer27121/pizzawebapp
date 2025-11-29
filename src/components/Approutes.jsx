@@ -6,6 +6,7 @@ import Menu from "./Menu"
 import Products from "./Products"
 import Items from "./Items"
 import Cart from "./Cart"
+import SearchedItems from "./SearchedItems"
 const Approutes = () => {
   return (
     <Routes>
@@ -16,6 +17,7 @@ const Approutes = () => {
             <Route path="/about" element={<About/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/cart" element={<Cart/>}/>
+            <Route path="/product/:item" element={<SearchedItems/>}/>
 
        </Routes>
   )

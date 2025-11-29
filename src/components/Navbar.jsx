@@ -33,6 +33,13 @@ const Navbar = () => {
     return () => document.removeEventListener("keydown", handleEsc);
   }, []);
 
+
+  const [item, setItems] =  useState("");
+  const finditem = ()=>{
+    navigate(`/product/${item}`);
+    setItems("");
+  }
+
   return (
     <div className="w-full shadow-md sticky top-0 z-50 bg-black">
       <div className="flex items-center justify-between px-4 py-3">
@@ -48,11 +55,17 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4" ref={wrapperRef}>
-          <i className="ri-user-line text-xl text-white hidden md:inline"></i>
           <i className="ri-shopping-cart-2-line text-xl text-white cursor-pointer hidden md:inline" onClick={() => navigate("/cart")}></i>
 
           {showSearch ? (
             <input
+              onChange={(e)=>{setItems(e.target.value)}}
+              onKeyDown={(e)=>{
+                if(e.key == "Enter"){
+                  finditem();
+                }
+              }}
+              value={item}
               ref={searchRef}
               type="search"
               placeholder="Search pizza..."
@@ -79,7 +92,6 @@ const Navbar = () => {
           <NavLink to="/about" onClick={() => setMenuOpen(false)} className="text-white text-lg">About</NavLink>
 
           <div className="flex gap-6 mt-2">
-            <i className="ri-user-line text-xl text-white"></i>
             <i className="ri-shopping-cart-2-line text-xl text-white cursor-pointer" onClick={() => navigate("/cart")}></i>
             <i
               className="ri-search-line text-xl text-white cursor-pointer"
